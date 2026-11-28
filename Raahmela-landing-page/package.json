@@ -1,13 +1,13 @@
 {
-  "name": "raahmela",
+  "name": "sairvan",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sairvan pre-launch landing page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node preview.mjs",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
