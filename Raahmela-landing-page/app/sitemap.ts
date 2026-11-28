@@ -1,4 +1,6 @@
 import type { MetadataRoute } from 'next'
+import { siteUrl } from './site'
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return process.env.SITE_URL ? [{ url: new URL('/', process.env.SITE_URL).href }] : []
+  return siteUrl ? [{ url: new URL('/', siteUrl).href, changeFrequency: 'monthly', priority: 1 }] : []
 }

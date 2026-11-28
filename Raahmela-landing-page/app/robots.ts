@@ -1,4 +1,9 @@
 import type { MetadataRoute } from 'next'
+import { siteUrl } from './site'
+
 export default function robots(): MetadataRoute.Robots {
-  return { rules: { userAgent: '*', allow: '/' }, ...(process.env.SITE_URL && { sitemap: new URL('/sitemap.xml', process.env.SITE_URL).href }) }
+  return {
+    rules: { userAgent: '*', allow: '/' },
+    ...(siteUrl && { sitemap: new URL('/sitemap.xml', siteUrl).href }),
+  }
 }

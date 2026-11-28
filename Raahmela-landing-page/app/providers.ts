@@ -1,4 +1,0 @@
-export const providers = [
-  { id: 'old-city-walks', name: 'Old City Walks', role: 'Travel agency', region: 'Lahore', place: 'Lahore', image: 'lahore', alt: 'A guide showing visitors the architecture of Lahore’s Walled City', interest: 'Private heritage walks', languages: ['English', 'Urdu'], host: 'Ayesha and the Old City Walks team', duration: '3 hours', price: '2,500', experience: 'Inside the Walled City', description: 'A guided walk through the old city’s lanes and time to explore its architecture.' },
-  { id: 'sana-malik', name: 'Sana Malik', role: 'Independent agent', region: 'Sindh', place: 'Hala', image: 'hala', alt: 'Artisan pressing a carved woodblock onto ajrak fabric', interest: 'Artisan visits', languages: ['English', 'Urdu', 'Sindhi'], host: 'A local artisan in Hala', duration: '2 hours', price: '4,500', experience: 'Inside an ajrak workshop', description: 'A workshop visit and demonstration of hand-block printing with a local artisan.' },
-]
